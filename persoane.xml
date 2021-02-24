@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE persoane [
+<!ELEMENT persoane (persoana)>
+<!ELEMENT persoana (nume, prenume, varsta, strada, numar, localitate, judet, tara, hobby, limbi_vorbitee)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT strada (#PCDATA)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+<!ELEMENT hobby (#PCDATA)>
+<!ELEMENT limbi_vorbite (#PCDATA)>
+]>
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <strada>Strada Principala</strada>
+        <numar>3</numar>
+        <localitate>Harlau</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <hobby>Muzica, citit</hobby>
+        <limbi_vorbite>romana, engleza</limbi_vorbite>
+    </persoana>
+   <persoana id="2">
+        <nume>Ionescu</nume>
+        <prenume>Mircea</prenume>
+        <varsta>21</varsta>
+        <strada>Strada Carpati</strada>
+        <numar>5</numar>
+        <localitate>Targu Frumos</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <hobby>Muzica, dans</hobby>
+        <limbi_vorbite>romana, franceza</limbi_vorbite>
+    </persoana>
+    <persoana id="3">
+        <nume>Pop</nume>
+        <prenume>Cornel</prenume>
+        <varsta>19</varsta>
+        <strada>Strada Sforii</strada>
+        <numar>54</numar>
+        <localitate>Towncitysville</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <hobby>SPort, dans</hobby>
+        <limbi_vorbite>romana, franceza, italiana</limbi_vorbite>
+    </persoana>
+    <persoana id="4">
+        <nume>Ionescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <strada>Strada Mare</strada>
+        <numar>23</numar>
+        <localitate>Harlau</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <hobby>Muzica, citit, balet</hobby>
+        <limbi_vorbite>romana, engleza</limbi_vorbite>
+    </persoana>
+    <persoana id="5">
+        <nume>Vladivici</nume>
+        <prenume>Ion</prenume>
+        <varsta>56</varsta>
+        <strada>Strada Principala</strada>
+        <numar>37</numar>
+        <localitate>Podu Iloaiei</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <hobby>Muzica, citit, sport</hobby>
+        <limbi_vorbite>romana, engleza</limbi_vorbite>
+    </persoana>
+    <persoana id="6">
+        <nume>Popescu</nume>
+        <prenume>Radu</prenume>
+        <varsta>45</varsta>
+        <strada>Strada Micae</strada>
+        <numar>3</numar>
+        <localitate>Harlau</localitate>
+        <judet>Iasi</judet>
+        <tara>Romania</tara>
+        <hobby>Muzica, citit</hobby>
+        <limbi_vorbite>romana, engleza</limbi_vorbite>
+    </persoana>
+</persoane>
